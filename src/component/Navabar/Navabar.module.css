@@ -1,0 +1,52 @@
+.Navabar {
+  width: 100%;
+  background-color: var(--background);
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+  position: fixed; /* Keep navbar fixed at the top */
+  top: 0;
+  z-index: 1000;
+}
+
+.Navabar.hidden {
+  transform: translateY(-100%); /* Move navbar out of view */
+  opacity: 0; /* Optional: fade out */
+}
+
+.NavabarWeapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.NavabarMenu {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.NavabarMenu:hover {
+  color: #d65333;
+}
+
+.NavabarMenu::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #d65333;
+  transition: all 0.5s;
+}
+
+.NavabarMenu:hover::before {
+  width: 100%;
+}
+
+.line {
+  opacity: 30%;
+}

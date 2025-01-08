@@ -1,0 +1,167 @@
+.WhatWedo {
+  padding: 40px 30px;
+  background-color: var(--background);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.line {
+  background-color: black; /* Line color */
+  width: 30%; /* Full width of the container */
+  height: 1px; /* Thickness of the line */
+  opacity: 30%;
+  position: relative;
+}
+.line1 {
+  background-color: black; /* Line color */
+  width: 20%; /* Full width of the container */
+  height: 1px; /* Thickness of the line */
+  position: absolute;
+  transition: background-color 0.3s ease;
+}
+.lineWeapper {
+  display: flex;
+  align-items: center;
+}
+.WhatWedoLine {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.HeadlineContent {
+  color: black;
+  font-weight: 500;
+  font-size: 40;
+  letter-spacing: -2%;
+  line-height: 120%;
+  display: flex;
+  flex-direction: column;
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  opacity: 50%;
+}
+.rightSide:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.Headline {
+  color: black;
+  font-size: 64;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -2%;
+
+  display: flex;
+  transition: opacity 0.3s ease; /* Smooth transition effect */
+  flex-direction: column;
+}
+
+.mainHeadline {
+  display: flex;
+  flex-direction: column;
+}
+
+.arrowIcon {
+  color: #d65333;
+  font-size: 64;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.line3 {
+  width: 98%;
+  margin: 1.5rem;
+  opacity: 40%;
+}
+.faqWrap {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.WhatWedoHeadline {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image {
+  position: relative; /* Required for Image fill */
+  width: 70%; /* Adjust width and height as necessary */
+  height: 400; /* Set a specific height */
+}
+.image1 {
+  position: relative; /* Required for Image fill */
+  width: 30%; /* Adjust width and height as necessary */
+  height: 400;
+}
+.WhatWedoImage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.WhatWedoRightSideContent {
+  width: max-content; /* Example size */
+  height: 5px; /* Example size */
+  border-radius: 50px;
+  border: 1px solid #333739;
+  background-color: transparent;
+  color: black;
+  font-size: 12px;
+  line-height: 120%;
+  font-weight: 400;
+  padding: 10px;
+
+  align-items: center;
+  display: flex;
+}
+.conten {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.conten1 {
+  font-size: 18;
+  font-weight: 400;
+  line-height: 140%;
+  opacity: 90%;
+}
+.contentWeapper {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+.rightSideContent {
+  display: flex;
+  gap: 10px;
+}
+.rightSide1 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+@keyframes rotate-up {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(280deg);
+  }
+}
+
+/* Apply animation classes */
+.iconRotateUp {
+  animation: rotate-up 0.3s ease forwards;
+}
+
+.iconRotateDown {
+  animation: rotate-down 0.3s ease forwards;
+}
