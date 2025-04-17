@@ -1,6 +1,7 @@
 .Header {
   padding: 10px 0px;
   padding-bottom: 0;
+  background-color: var(--background);
 }
 .Header h1 {
   font-size: 284;

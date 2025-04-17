@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: var(--background);
+  background-color: var(--background300);
   color: var(--foreground);
 }
 
