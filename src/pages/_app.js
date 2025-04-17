@@ -3,7 +3,7 @@ import { Rethink_Sans } from "next/font/google";
 
 const RethinkSans = Rethink_Sans({
   weight: ["400", "500", "600", "800"],
-  subsets: ["latin", "normal"],
+  subsets: ["latin"],
 });
 
 export default function App({ Component, pageProps }) {
